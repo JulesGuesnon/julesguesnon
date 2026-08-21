@@ -19,7 +19,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=JulesGuesnon&show_icons=true&theme=tokyonight&hide=contribs,prs&count_private=true&icon_color=ae72f2
+          options: username=JulesGuesnon&show_icons=true&theme=catppuccin_mocha&hide=contribs,prs&count_private=true
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -27,7 +27,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=JulesGuesnon&theme=tokyonight&hide=kotlin,javascript
+          options: username=JulesGuesnon&theme=catppuccin_mocha&hide=kotlin,javascript
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
